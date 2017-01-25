@@ -16,7 +16,7 @@ public class w17w3_2 {
 
 public static void main (String[] args)
 {
-    Employee employee1 = new Employee("Fred","Flintstone", 1234, LocalDate.of(1998, Month.MARCH, 14));
+    Employee employee1 = new Employee("Fred","Flintstone ", 1234, LocalDate.of(1998, Month.MARCH, 14));
     System.out.printf ("employee1 is %s%n",employee1);
     System.out.printf("The employee was born %s, that was a %s%n", employee1.getDob(), employee1.getDob().getDayOfWeek());
 
