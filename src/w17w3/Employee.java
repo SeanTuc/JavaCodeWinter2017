@@ -28,7 +28,7 @@ public class Employee {
     */
     public String tostring ()
     {
-        return firstName +" "+ lastName ;
+        return firstName +"  "+ lastName ;
     } //end of tostring
     
     /**
